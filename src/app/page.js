@@ -1,17 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Header from "./components/Header"
-import Footer from "./components/Footer";
-import Body from "./components/Body";
-
+import Home from "../pages/home"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../globals.css'
 
-export default function Home() {
+
+export default function Aplicacion() {
   return (
-    <div className={styles.page}>
-      <Header></Header>
-      <Body></Body>
-      <Footer></Footer>
+    <div className="Aplicacion">
+      <Home></Home>
     </div>
-  );
+  )
 }
